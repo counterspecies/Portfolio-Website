@@ -275,8 +275,11 @@
   /* Ensure all project media appears on top on mobile */
   .project-media {
     order: 1;
-    min-height: 200px;
     width: 100%;
+    height: 0;
+    padding-bottom: 100%; /* Creates 1:1 aspect ratio */
+    position: relative;
+    overflow: hidden;
   }
   
   .project-content {
@@ -285,13 +288,26 @@
     width: 100%;
   }
   
-  /* Fix video sizing on mobile */
-  .project-video {
+  /* Fix video sizing on mobile - full video at 1:1 aspect ratio */
+  .project-video,
+  .project-image {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    max-height: 200px;
-    object-fit: cover;
+    object-fit: contain; /* Shows full video/image without cropping */
     object-position: center;
+    background: var(--bg-tertiary); /* Background color for letterboxing */
+  }
+  
+  /* Placeholder content positioning */
+  .placeholder-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
   
   .section-header h2 {
@@ -320,7 +336,11 @@
   
   .project-media {
     order: 1;
-    min-height: 180px;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%; /* Maintains 1:1 aspect ratio */
+    position: relative;
+    overflow: hidden;
   }
   
   .project-content {
@@ -328,8 +348,25 @@
     padding: 20px;
   }
   
-  .project-video {
-    max-height: 180px;
+  .project-video,
+  .project-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    background: var(--bg-tertiary);
+  }
+  
+  /* Placeholder content positioning */
+  .placeholder-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
   
   .code-content {

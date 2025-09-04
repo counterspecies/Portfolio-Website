@@ -105,7 +105,7 @@ const Contact = () => {
               </div>
               <div className="status-details">
                 <p>
-                  <strong>Seeking:</strong> Summer 2025 Software Engineering Internships, Software Engineering Jobs<br/>
+                  <strong>Seeking:</strong> Software Engineering Jobs, Summer 2026 Software Engineering Internships<br/>
                   <strong>Interests:</strong> Systems Programming, Web Development, DevOps<br/>
                   <strong>Location:</strong> San Diego, CA (Open to remote/relocation)
                 </p>
