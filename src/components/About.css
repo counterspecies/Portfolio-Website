@@ -1,0 +1,229 @@
+.about {
+  padding: 100px 0;
+  background: 
+    radial-gradient(circle at 30% 70%, rgba(197, 134, 192, 0.05) 0%, transparent 50%),
+    var(--bg-primary);
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 32px;
+}
+
+.about-description {
+  margin-bottom: 40px;
+}
+
+.about-description p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.highlight {
+  color: var(--accent-blue);
+  font-weight: 600;
+}
+
+.rust-highlight {
+  color: var(--accent-orange);
+  font-weight: 600;
+}
+
+/* Achievements Section */
+.achievements h3 {
+  color: var(--accent-green);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.achievements ul {
+  list-style: none;
+  padding: 0;
+}
+
+.achievements li {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 20px;
+  padding: 16px;
+  background: var(--bg-secondary);
+  border-radius: 8px;
+  border-left: 3px solid var(--accent-blue);
+  transition: var(--transition-smooth);
+}
+
+.achievements li:hover {
+  transform: translateX(8px);
+  border-left-color: var(--accent-green);
+}
+
+.achievement-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.achievements strong {
+  color: var(--text-primary);
+  font-family: 'JetBrains Mono', monospace;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.achievements p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* Visual Section */
+.about-visual {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.stats-card {
+  background: var(--bg-secondary);
+  border-radius: 12px;
+  border: 1px solid var(--bg-tertiary);
+  overflow: hidden;
+}
+
+.terminal-header {
+  background: var(--bg-tertiary);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.terminal-buttons {
+  display: flex;
+  gap: 6px;
+}
+
+.terminal-buttons span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.btn-red { background: #ff5f57; }
+.btn-yellow { background: #ffbd2e; }
+.btn-green { background: #28ca42; }
+
+.terminal-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.stats-content {
+  padding: 20px;
+}
+
+.stats-content pre {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-primary);
+  margin: 0;
+  overflow-x: auto;
+}
+
+.profile-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  object-fit: cover;
+}
+
+/* Quick Facts */
+.quick-facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.fact-item {
+  background: var(--bg-secondary);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid var(--bg-tertiary);
+  transition: var(--transition-smooth);
+}
+
+.fact-item:hover {
+  border-color: var(--accent-blue);
+  transform: translateY(-4px);
+}
+
+.fact-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent-blue);
+  font-family: 'JetBrains Mono', monospace;
+  margin-bottom: 8px;
+}
+
+.fact-label {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+  }
+  
+  .about-description p {
+    font-size: 1rem;
+  }
+  
+  .quick-facts {
+    grid-template-columns: 1fr;
+  }
+  
+  .achievements li {
+    padding: 12px;
+  }
+  
+  .stats-content pre {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 60px 0;
+  }
+  
+  .achievements li {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .achievement-icon {
+    align-self: center;
+  }
+}

@@ -1,0 +1,124 @@
+import React, { useState, useEffect } from 'react';
+import './Hero.css';
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism';
+
+const Hero = () => {
+  const [displayText, setDisplayText] = useState('');
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const fullText = "Hello, I'm Eli Perez";
+  const subtitle = "Software Engineer";
+
+  useEffect(() => {
+    if (currentIndex < fullText.length) {
+      const timeout = setTimeout(() => {
+        setDisplayText(fullText.slice(0, currentIndex + 1));
+        setCurrentIndex(currentIndex + 1);
+      }, 100);
+      return () => clearTimeout(timeout);
+    }
+  }, [currentIndex, fullText]);
+
+  return (
+    <section id="hero" className="hero">
+      <div className="container">
+        <div className="hero-content">
+          <div className="terminal-window">
+            <div className="terminal-header">
+              <div className="terminal-buttons">
+                <span className="btn-red"></span>
+                <span className="btn-yellow"></span>
+                <span className="btn-green"></span>
+              </div>
+              <div className="terminal-title">eli@portfolio:~$</div>
+            </div>
+            <div className="terminal-body">
+              <div className="command-line">
+                <span className="prompt">$</span>
+                <span className="command">whoami</span>
+              </div>
+              <div className="output">
+                <h1 className="name-display">
+                  {displayText}
+                  <span className="cursor">|</span>
+                </h1>
+                <h2 className="subtitle">{subtitle}</h2>
+                <p className="description">
+                  A driven Computer Science student with proven experience developing 
+                  high-performance, full-stack web applications in <span className="rust-highlight">Rust</span>. 
+                  Passionate about systems programming and building impactful software.
+                </p>
+              </div>
+              <div className="command-line">
+                <span className="prompt">$</span>
+                <span className="command">cat skills.rs</span>
+              </div>
+              <div className="skills-preview">
+                <div className="skill-tag">Rust</div>
+                <div className="skill-tag">React</div>
+                <div className="skill-tag">PostgreSQL</div>
+                <div className="skill-tag">Python</div>
+                <div className="skill-tag">Systems Programming</div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="hero-actions">
+            <a href="#projects" className="btn-primary">
+              View My Work
+            </a>
+            <a href="#contact" className="btn-secondary">
+              Get In Touch
+            </a>
+            <a 
+              href="/PerezEli_Resume.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="btn-secondary"
+            >
+              Download Resume
+            </a>
+          </div>
+        </div>
+        
+        <div className="hero-visual">
+          <div className="code-snippet">
+            <div className="code-header">
+              <span className="file-name">main.rs</span>
+            </div>
+            <SyntaxHighlighter
+              language="clike"
+              style={vscDarkPlus}
+              className="code-content"
+              showLineNumbers={false}
+              wrapLines={true}
+              customStyle={{
+                background: 'transparent',
+                padding: '0',
+                margin: '0',
+                fontSize: '0.9rem',
+                fontFamily: "'JetBrains Mono', 'Fira Code', monospace"
+              }}
+            >
+              {`fn main() {
+    let developer = Developer {
+        name: "Eli Perez",
+        skills: vec![
+            "Rust", "React", "PostgreSQL", 
+            "Python", "Systems Programming"
+        ],
+        passion: "Building impactful software",
+        goal: "Software Engineering Internship"
+    };
+    
+    developer.create_amazing_things();
+}`}
+            </SyntaxHighlighter>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
