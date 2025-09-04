@@ -9,12 +9,12 @@ const Skills = () => {
       title: "Programming Languages",
       icon: "💻",
       skills: [
-        { name: "Rust", level: 95, experience: "2+ years", color: "var(--accent-orange)" },
+        { name: "Rust", level: 95, experience: "3+ years", color: "var(--accent-orange)" },
         { name: "Python", level: 90, experience: "3+ years", color: "var(--accent-blue)" },
         { name: "JavaScript", level: 85, experience: "2+ years", color: "var(--accent-yellow)" },
-        { name: "TypeScript", level: 80, experience: "1+ year", color: "var(--accent-blue)" },
-        { name: "Java", level: 75, experience: "3+ years", color: "var(--accent-orange)" },
-        { name: "Assembly", level: 70, experience: "Custom CPU project", color: "var(--accent-red)" }
+        { name: "TypeScript", level: 80, experience: "2+ year", color: "var(--accent-blue)" },
+        { name: "C / C++", level: 80, experience: "Custom CPU project", color: "var(--accent-red)" },
+        { name: "Java", level: 75, experience: "2+ years", color: "var(--accent-orange)" },
       ]
     },
     backend: {

@@ -23,8 +23,8 @@ const Projects = () => {
         github: "https://github.com/your-username/until-every-cage-is-empty"
       },
       media: {
-        type: "video", // or "gif"
-        src: "/videos/cage-demo.mp4", // We'll add placeholder for now
+        type: "video",
+        src: "/videos/cage-demo.mp4", 
         placeholder: "UECE.png",
         alt: "Until Every Cage is Empty demo",
         content: "🗺️ Mapping Application"
@@ -109,7 +109,9 @@ impl CPU {
         github: "https://github.com/eliPerez12/Portfolio-Website"
       },
       media: {
-        type: "placeholder",
+        type: "video",
+        src: "/videos/portfolio-demo.mp4",
+        placeholder: "/images/portfolio-placeholder.jpg",
         alt: "Portfolio website demo",
         content: "💻 React Portfolio Site"
       },
@@ -151,16 +153,44 @@ useEffect(() => {
               onClick={() => setActiveProject(index)}
             >
               <div className="project-media">
-                <div className="placeholder-container">
-                  <div className="placeholder-content">
-                    <span className="placeholder-text">
-                      {project.media.content || "🚀 Project Demo"}
-                    </span>
-                    <small className="placeholder-note">
-                      Media coming soon
-                    </small>
+                {project.media.type === 'video' && project.media.src ? (
+                  <video 
+                    className="project-video"
+                    autoPlay
+                    loop
+                    muted 
+                    playsInline
+                    preload="auto"
+                    onLoadStart={() => console.log(`Loading video: ${project.media.src}`)}
+                    onCanPlay={() => console.log(`Video can play: ${project.media.src}`)}
+                    onError={(e) => {
+                      console.log(`Video error: ${project.media.src}`, e);
+                    }}
+                  >
+                    <source src={project.media.src} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                ) : project.media.type === 'image' && project.media.src ? (
+                  <img 
+                    className="project-image"
+                    src={project.media.src}
+                    alt={project.media.alt}
+                    onError={(e) => {
+                      console.log(`Image failed to load: ${project.media.src}`);
+                    }}
+                  />
+                ) : (
+                  <div className="placeholder-container">
+                    <div className="placeholder-content">
+                      <span className="placeholder-text">
+                        {project.media.content || "🚀 Project Demo"}
+                      </span>
+                      <small className="placeholder-note">
+                        Media coming soon
+                      </small>
+                    </div>
                   </div>
-                </div>
+                )}
               </div>
 
               <div className="project-content">

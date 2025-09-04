@@ -81,7 +81,8 @@
 }
 
 .project-video,
-.project-gif {
+.project-gif,
+.project-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -89,7 +90,8 @@
 }
 
 .project-card:hover .project-video,
-.project-card:hover .project-gif {
+.project-card:hover .project-gif,
+.project-card:hover .project-image {
   transform: scale(1.05);
 }
 
