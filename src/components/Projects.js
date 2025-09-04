@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import './Projects.css';
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 const Projects = () => {
   const [activeProject, setActiveProject] = useState(0);
@@ -28,7 +26,8 @@ const Projects = () => {
         type: "video", // or "gif"
         src: "/videos/cage-demo.mp4", // We'll add placeholder for now
         placeholder: "UECE.png",
-        alt: "Until Every Cage is Empty demo"
+        alt: "Until Every Cage is Empty demo",
+        content: "🗺️ Mapping Application"
       },
       codeSnippet: {
         language: "rust",
@@ -72,10 +71,11 @@ fn process_locations(raw_data: Vec<RawLocation>) -> Vec<Location> {
         type: "video",
         src: "/videos/cpu-demo.mp4",
         placeholder: "/images/cpu-placeholder.jpg",
-        alt: "Electron CPU emulator demo"
+        alt: "Electron CPU emulator demo",
+        content: "🖥️ Custom CPU Design"
       },
       codeSnippet: {
-        language: "clike",
+        language: "rust",
         title: "CPU Instruction Execution",
         code: `// CPU instruction execution cycle
 impl CPU {
@@ -106,7 +106,7 @@ impl CPU {
         "Code aesthetic with syntax highlighting"
       ],
       links: {
-        github: "https://github.com/your-username/portfolio"
+        github: "https://github.com/eliPerez12/Portfolio-Website"
       },
       media: {
         type: "placeholder",
@@ -130,6 +130,8 @@ useEffect(() => {
     }
   ];
 
+
+
   return (
     <section id="projects" className="projects">
       <div className="container">
@@ -152,7 +154,7 @@ useEffect(() => {
                 <div className="placeholder-container">
                   <div className="placeholder-content">
                     <span className="placeholder-text">
-                      {project.media.content}
+                      {project.media.content || "🚀 Project Demo"}
                     </span>
                     <small className="placeholder-note">
                       Media coming soon
@@ -207,37 +209,6 @@ useEffect(() => {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Detailed Project View */}
-        <div className="project-detail">
-          <div className="code-showcase">
-            <div className="code-header">
-              <span className="file-name">
-                {projects[activeProject].codeSnippet.title}
-              </span>
-              <span className="language-tag">
-                {projects[activeProject].codeSnippet.language}
-              </span>
-            </div>
-            <SyntaxHighlighter
-              language={projects[activeProject].codeSnippet.language}
-              style={vscDarkPlus}
-              className="code-content"
-              showLineNumbers={true}
-              wrapLines={true}
-              customStyle={{
-                background: 'transparent',
-                padding: '20px',
-                margin: '0',
-                fontSize: '0.9rem',
-                fontFamily: "'JetBrains Mono', 'Fira Code', monospace",
-                borderRadius: '0 0 12px 12px'
-              }}
-            >
-              {projects[activeProject].codeSnippet.code}
-            </SyntaxHighlighter>
-          </div>
         </div>
       </div>
     </section>

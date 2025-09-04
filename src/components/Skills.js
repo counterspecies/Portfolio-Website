@@ -9,10 +9,11 @@ const Skills = () => {
       title: "Programming Languages",
       icon: "💻",
       skills: [
-        { name: "Rust", level: 90, experience: "2+ years", color: "var(--accent-orange)" },
-        { name: "Python", level: 85, experience: "3+ years", color: "var(--accent-blue)" },
-        { name: "JavaScript", level: 80, experience: "2+ years", color: "var(--accent-yellow)" },
-        { name: "TypeScript", level: 75, experience: "1+ year", color: "var(--accent-blue)" },
+        { name: "Rust", level: 95, experience: "2+ years", color: "var(--accent-orange)" },
+        { name: "Python", level: 90, experience: "3+ years", color: "var(--accent-blue)" },
+        { name: "JavaScript", level: 85, experience: "2+ years", color: "var(--accent-yellow)" },
+        { name: "TypeScript", level: 80, experience: "1+ year", color: "var(--accent-blue)" },
+        { name: "Java", level: 75, experience: "3+ years", color: "var(--accent-orange)" },
         { name: "Assembly", level: 70, experience: "Custom CPU project", color: "var(--accent-red)" }
       ]
     },
@@ -23,7 +24,7 @@ const Skills = () => {
         { name: "Axum (Rust)", level: 85, experience: "Production API", color: "var(--accent-orange)" },
         { name: "PostgreSQL", level: 80, experience: "Database design", color: "var(--accent-blue)" },
         { name: "RESTful APIs", level: 85, experience: "22K+ data points", color: "var(--accent-green)" },
-        { name: "Docker", level: 70, experience: "Containerization", color: "var(--accent-blue)" },
+        { name: "NodeJS", level: 70, experience: "Containerization", color: "var(--accent-blue)" },
         { name: "AWS", level: 60, experience: "Basic deployment", color: "var(--accent-orange)" }
       ]
     },
@@ -35,7 +36,7 @@ const Skills = () => {
         { name: "HTML/CSS", level: 85, experience: "Responsive design", color: "var(--accent-orange)" },
         { name: "Leaflet.js", level: 75, experience: "Mapping application", color: "var(--accent-green)" },
         { name: "Vanilla JS", level: 80, experience: "Interactive UIs", color: "var(--accent-yellow)" },
-        { name: "Responsive Design", level: 85, experience: "Mobile-first", color: "var(--accent-purple)" }
+        { name: "Netlify", level: 85, experience: "Multiple projects", color: "var(--accent-purple)" }
       ]
     },
     tools: {
@@ -44,9 +45,8 @@ const Skills = () => {
       skills: [
         { name: "Git/GitHub", level: 85, experience: "Version control", color: "var(--accent-orange)" },
         { name: "VS Code", level: 90, experience: "Extension development", color: "var(--accent-blue)" },
-        { name: "CI/CD", level: 70, experience: "Netlify, Shuttle-rs", color: "var(--accent-green)" },
+        { name: "CI/CD", level: 75, experience: "Netlify, Shuttle-rs", color: "var(--accent-green)" },
         { name: "Linux/Unix", level: 75, experience: "Command line", color: "var(--accent-yellow)" },
-        { name: "Debugging", level: 85, experience: "Complex systems", color: "var(--accent-red)" }
       ]
     }
   };
@@ -121,7 +121,7 @@ const Skills = () => {
                     <span className="match-text">Modern UI development</span>
                   </div>
                   <div className="output-line">
-                    <span className="file-path">./database/postgres.sql:</span>
+                    <span className="file-path">./database.csv:</span>
                     <span className="match-text">Efficient data management</span>
                   </div>
                 </div>
