@@ -39,6 +39,22 @@ const Experience = () => {
       ],
       skills: ["Project Management", "Client Relations", "Quality Assurance", "Business Operations", "Marketing"]
     },
+    {
+      id: 3,
+      title: "Music Tutor",
+      company: "Chula Vista Middle School",
+      period: "Aug 2021 - June  2024",
+      type: "Education",
+      location: "Chula Vista, CA",
+      description: "Oversaw the musical development of middle school students by providing tailored lessons and feedback in both individual and group settings.",
+      achievements: [
+        "Led weekly music lessons with middle school musicians.",
+        "Provided one on one consultation as well as group sessions.",
+        "Deconstructed complex musical concepts into simple, understandable lessons for middle school students.",
+        "Developed structured lesson plans and provided constructive feedback to foster student growth and confidence.",
+      ],
+      skills: ["Education", "Communication", "Music Theory"]
+    }
   ];
 
   const education = {
@@ -54,7 +70,7 @@ const Experience = () => {
     ],
     achievements: [
       "Strong academic performance (3.41 GPA)",
-      "Active in programming projects",
+      "Active in programming projects & group studies",
       "Self-directed learning focus"
     ]
   };
@@ -71,6 +87,12 @@ const Experience = () => {
       description: "Selected for highly competitive, audition-only ensemble for six consecutive years; earned First Chair Trumpet for two years",
       icon: "🎺",
       year: "6 Years"
+    },
+    {
+      title: "Multiple Music Awards",
+      description: "Selected for highly competitive, audition-only ensemble for six consecutive years; earned First Chair Trumpet for two years",
+      icon: "🎵",
+      year: "Highly Awarded Musician"
     }
   ];
 

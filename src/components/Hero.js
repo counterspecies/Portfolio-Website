@@ -55,9 +55,9 @@ const Hero = () => {
               </div>
               <div className="skills-preview">
                 <div className="skill-tag">Rust</div>
-                <div className="skill-tag">React</div>
-                <div className="skill-tag">PostgreSQL</div>
+                <div className="skill-tag">Javascript</div>
                 <div className="skill-tag">Python</div>
+                <div className="skill-tag">Full-Stack</div>
                 <div className="skill-tag">Systems Programming</div>
               </div>
             </div>
@@ -87,17 +87,18 @@ const Hero = () => {
               <span className="file-name">main.rs</span>
             </div>
             <SyntaxHighlighter
-              language="clike"
+              language="rust"
               style={vscDarkPlus}
               className="code-content"
-              showLineNumbers={false}
+              showLineNumbers={true}
               wrapLines={true}
               customStyle={{
                 background: 'transparent',
-                padding: '0',
+                padding: '20px',
                 margin: '0',
                 fontSize: '0.9rem',
-                fontFamily: "'JetBrains Mono', 'Fira Code', monospace"
+                fontFamily: "'JetBrains Mono', 'Fira Code', monospace",
+                borderRadius: '0 0 12px 12px'
               }}
             >
               {`fn main() {

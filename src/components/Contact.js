@@ -44,13 +44,13 @@ const Contact = () => {
       icon: '💼',
       label: 'LinkedIn',
       value: 'linkedin.com/in/eli-perez',
-      link: 'https://linkedin.com/in/eli-perez'
+      link: 'https://www.linkedin.com/in/eli-perez-782714315/'
     },
     {
       icon: '🔗',
       label: 'GitHub',
-      value: 'github.com/eli-perez',
-      link: 'https://github.com/eli-perez'
+      value: 'github.com/eliPerez12',
+      link: 'https://github.com/eliPerez12'
     }
   ];
 
@@ -105,7 +105,7 @@ const Contact = () => {
               </div>
               <div className="status-details">
                 <p>
-                  <strong>Seeking:</strong> Summer 2025 Software Engineering Internships<br/>
+                  <strong>Seeking:</strong> Summer 2025 Software Engineering Internships, Software Engineering Jobs<br/>
                   <strong>Interests:</strong> Systems Programming, Web Development, DevOps<br/>
                   <strong>Location:</strong> San Diego, CA (Open to remote/relocation)
                 </p>
@@ -122,7 +122,7 @@ const Contact = () => {
                 📄 Download Resume
               </a>
               <a 
-                href="https://linkedin.com/in/eli-perez" 
+                href="https://www.linkedin.com/in/eli-perez-782714315/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="btn-secondary"
@@ -175,6 +175,7 @@ const Contact = () => {
                   required
                 >
                   <option value="">Select a subject</option>
+                  <option value="Job Opportunity">Job Opportunity</option>
                   <option value="Internship Opportunity">Internship Opportunity</option>
                   <option value="Project Collaboration">Project Collaboration</option>
                   <option value="Technical Discussion">Technical Discussion</option>

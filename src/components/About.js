@@ -26,12 +26,12 @@ const About = () => {
               <p>
                 Beyond coding, I bring <span className="highlight">entrepreneurial experience</span> from founding 
                 and operating my own mobile detailing business, where I developed strong client management and 
-                attention-to-detail skills. I also have 6 years of experience as First Chair Trumpet in the 
-                competitive Sweetwater District Honors Band.
+                attention-to-detail skills. I am also a musician, and have over 9 years of experience playing the trumpet,
+                and play other instruments like the bass guitar.
               </p>
 
               <p>
-                I'm actively seeking <span className="highlight">software engineering internship opportunities</span> 
+                I'm actively seeking <span className="highlight">software engineering internship opportunities </span> 
                 where I can contribute to meaningful projects while continuing to grow as a developer.
               </p>
             </div>
@@ -93,8 +93,8 @@ const About = () => {
                 <div className="fact-label">Self-Taught Rust</div>
               </div>
               <div className="fact-item">
-                <div className="fact-number">2</div>
-                <div className="fact-label">Major Projects</div>
+                <div className="fact-number">High Impact</div>
+                <div className="fact-label">Projects</div>
               </div>
             </div>
           </div>

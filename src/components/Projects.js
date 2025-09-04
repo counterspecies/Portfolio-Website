@@ -27,27 +27,28 @@ const Projects = () => {
       media: {
         type: "video", // or "gif"
         src: "/videos/cage-demo.mp4", // We'll add placeholder for now
-        placeholder: "/images/cage-placeholder.jpg",
+        placeholder: "UECE.png",
         alt: "Until Every Cage is Empty demo"
       },
       codeSnippet: {
-        language: "clike",
-        title: "API Route Handler",
-        code: `// Rust API endpoint for serving location data
-#[get("/api/locations")]
-async fn get_locations(
-    State(pool): State<PgPool>,
-    Query(params): Query<LocationParams>
-) -> Result<Json<Vec<Location>>, AppError> {
-    let locations = sqlx::query_as!(
-        Location,
-        "SELECT * FROM locations WHERE active = $1",
-        true
-    )
-    .fetch_all(&pool)
-    .await?;
-    
-    Ok(Json(locations))
+        language: "rust",
+        title: "Data Processing Pipeline",
+        code: `// Rust data processing for location mapping
+use serde::{Deserialize, Serialize};
+
+#[derive(Serialize, Deserialize)]
+struct Location {
+    id: i32,
+    name: String,
+    coordinates: (f64, f64),
+    active: bool,
+}
+
+fn process_locations(raw_data: Vec<RawLocation>) -> Vec<Location> {
+    raw_data.into_iter()
+        .filter(|loc| loc.is_valid())
+        .map(|loc| loc.into_location())
+        .collect()
 }`
       }
     },
