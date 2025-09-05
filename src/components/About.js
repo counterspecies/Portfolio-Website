@@ -89,7 +89,7 @@ const About = () => {
                 <div className="fact-label">Years Programming</div>
               </div>
               <div className="fact-item">
-                <div className="fact-number">1k+</div>
+                <div className="fact-number">1.5k+</div>
                 <div className="fact-label">Monthly users</div>
               </div>
               <div className="fact-item">
