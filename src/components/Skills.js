@@ -130,7 +130,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="learning-section">
+        {/* <div className="learning-section">
           <h3 className="learning-title">Currently Learning</h3>
           <div className="learning-items">
             <div className="learning-item">
@@ -155,7 +155,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
