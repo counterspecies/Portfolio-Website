@@ -81,22 +81,44 @@ const Experience = () => {
 
   const achievements = [
     {
+      title: "Open Source Impact",
+      bulletPoints: [
+        "Built mapping application serving 22,000+ data points to thousands of global users worldwide",
+        "Engineered high-performance RESTful API in Rust using Axum framework, with a Vanilla JS and Leaflet.js front-end",
+        "Collaborated with dozens of activists and researchers to create impactful open-source software"
+      ],
+      icon: "🗺️",
+      year: "2025"
+    },
+    {
       title: "AP Computer Science Exam",
-      description: "Passed with highest possible score (5) - Self Studied",
+      bulletPoints: [
+        "Achieved highest possible score (5) through dedicated self-study",
+        "Mastered advanced programming concepts, algorithms, and problem-solving skills independently",
+        "Completed 5 AP exams total during senior year"
+      ],
       icon: "🏆",
       year: "2024"
     },
     {
-      title: "Sweetwater District Honors Band",
-      description: "Selected for highly competitive, audition-only ensemble for six consecutive years; earned First Chair Trumpet for two years",
-      icon: "🎺",
-      year: "6 Years"
+      title: "Music Achievements",
+      bulletPoints: [
+        "Selected for highly competitive, audition-only ensemble for six consecutive years; earned Principal Chair Trumpet for two years",
+        "Started a school Jazz Band, performed concerts and solos as lead trumpet",
+        "Recognized as 'Most Outstanding Musician' and received various accolades in local and regional competitions"
+      ],
+      icon: "🎵",
+      year: "Highly Awarded Musician | 6 Years in Top Regional Ensemble"
     },
     {
-      title: "Multiple Music Awards",
-      description: "Recognized as 'Most Outstanding Musician' and received various accolades in local and regional competitions",
-      icon: "🎵",
-      year: "Highly Awarded Musician"
+      title: "Social Media Impact for Animal Advocacy",
+      bulletPoints: [
+        "Launched YouTube channel and Instagram focused on animal welfare, reaching over 100k views",
+        "Created engaging content that educated audiences about animal care and advocacy",
+        "Built active community of animal lovers and advocates through consistent, impactful messaging"
+      ],
+      icon: "📱",
+      year: "2025"
     }
   ];
 
@@ -251,7 +273,11 @@ const Experience = () => {
                   <div className="achievement-icon">{achievement.icon}</div>
                   <div className="achievement-content">
                     <h4 className="achievement-title">{achievement.title}</h4>
-                    <p className="achievement-description">{achievement.description}</p>
+                    <ul className="achievement-bullets">
+                      {achievement.bulletPoints.map((point, index) => (
+                        <li key={index}>{point}</li>
+                      ))}
+                    </ul>
                     <div className="achievement-year">{achievement.year}</div>
                   </div>
                 </div>

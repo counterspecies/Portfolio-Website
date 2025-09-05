@@ -344,11 +344,27 @@
   margin-bottom: 8px;
 }
 
-.achievement-description {
+.achievement-bullets {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 8px;
+}
+
+.achievement-bullets li {
   color: var(--text-secondary);
   line-height: 1.5;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   font-size: 0.9rem;
+  position: relative;
+  padding-left: 16px;
+}
+
+.achievement-bullets li::before {
+  content: '▶';
+  position: absolute;
+  left: 0;
+  color: var(--accent-blue);
+  font-size: 0.8rem;
 }
 
 .achievement-year {
