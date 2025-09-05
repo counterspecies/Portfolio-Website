@@ -40,10 +40,17 @@ const About = () => {
               <h3>Recent Achievements</h3>
               <ul>
                 <li>
+                  <span className="achievement-icon">🚀</span>
+                  <div>
+                    <strong>Open Source Impact</strong>
+                    <p>Built mapping application serving 22,000+ data points to global users</p>
+                  </div>
+                </li>
+                <li>
                   <span className="achievement-icon">🏆</span>
                   <div>
                     <strong>AP Computer Science Exam</strong>
-                    <p>Achieved highest possible score (5) self-studied</p>
+                    <p>Achieved highest possible score (5) -- self studied</p>
                   </div>
                 </li>
                 <li>
@@ -51,13 +58,6 @@ const About = () => {
                   <div>
                     <strong>Sweetwater District Honors Band</strong>
                     <p>First Chair Trumpet for 2 years, 6 years total participation</p>
-                  </div>
-                </li>
-                <li>
-                  <span className="achievement-icon">🚀</span>
-                  <div>
-                    <strong>Open Source Impact</strong>
-                    <p>Built mapping application serving 22,000+ data points to global users</p>
                   </div>
                 </li>
               </ul>
@@ -85,15 +85,15 @@ const About = () => {
                 <div className="fact-label">Data Points Served</div>
               </div>
               <div className="fact-item">
-                <div className="fact-number">3+</div>
+                <div className="fact-number">4+</div>
                 <div className="fact-label">Years Programming</div>
               </div>
               <div className="fact-item">
-                <div className="fact-number">100%</div>
-                <div className="fact-label">Self-Taught Rust</div>
+                <div className="fact-number">1k+</div>
+                <div className="fact-label">Monthly users</div>
               </div>
               <div className="fact-item">
-                <div className="fact-number">High Impact</div>
+                <div className="fact-number">High-Impact</div>
                 <div className="fact-label">Projects</div>
               </div>
             </div>

@@ -28,7 +28,11 @@ const Experience = () => {
       period: "Sep 2024 - Aug 2025",
       type: "Entrepreneurship",
       location: "Bonita, CA",
-      website: "Website | Google",
+      links: {
+        website: "https://bonita-mobile-detailing.square.site/",
+        google: "https://share.google/0LXeCGkK7dSGlXgUo",
+        instagram: "https://www.instagram.com/bonita.mobile.detailing/"
+      },
       description: "Founded and operated a self-started service business, managing the entire client lifecycle from marketing, initial consultation and quoting, to final service delivery.",
       achievements: [
         "Launched and operated a self-started service business",
@@ -129,8 +133,36 @@ const Experience = () => {
                         <h4 className="experience-title">{exp.title}</h4>
                         <div className="experience-company">
                           {exp.company}
-                          {exp.website && (
-                            <span className="experience-links"> | {exp.website}</span>
+                          {exp.links && (
+                            <span className="experience-links">
+                              {' | '}
+                              <a 
+                                href={exp.links.website} 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="company-link"
+                              >
+                                Website
+                              </a>
+                              {' | '}
+                              <a 
+                                href={exp.links.google} 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="company-link"
+                              >
+                                Google
+                              </a>
+                              {' | '}
+                              <a 
+                                href={exp.links.instagram} 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="company-link"
+                              >
+                                Instagram
+                              </a>
+                            </span>
                           )}
                         </div>
                         <div className="experience-meta">

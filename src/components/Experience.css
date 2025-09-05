@@ -102,6 +102,18 @@
   font-weight: normal;
 }
 
+.company-link {
+  color: var(--accent-blue);
+  text-decoration: none;
+  transition: var(--transition-smooth);
+  border-bottom: 1px solid transparent;
+}
+
+.company-link:hover {
+  color: var(--accent-green);
+  border-bottom-color: var(--accent-green);
+}
+
 .experience-meta {
   display: flex;
   gap: 16px;
