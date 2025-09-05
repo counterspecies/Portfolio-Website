@@ -43,7 +43,7 @@ const About = () => {
                   <span className="achievement-icon">🏆</span>
                   <div>
                     <strong>AP Computer Science Exam</strong>
-                    <p>Achieved highest possible score (5) through self-study</p>
+                    <p>Achieved highest possible score (5) self-studied</p>
                   </div>
                 </li>
                 <li>
