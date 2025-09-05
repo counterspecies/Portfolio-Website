@@ -90,7 +90,7 @@ const Experience = () => {
     },
     {
       title: "Multiple Music Awards",
-      description: "Selected for highly competitive, audition-only ensemble for six consecutive years; earned First Chair Trumpet for two years",
+      description: "Recognized as 'Most Outstanding Musician' and received various accolades in local and regional competitions",
       icon: "🎵",
       year: "Highly Awarded Musician"
     }
