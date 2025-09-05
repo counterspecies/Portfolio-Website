@@ -19,8 +19,8 @@ const Projects = () => {
         "Python data processing pipeline"
       ],
       links: {
-        live: "https://your-demo-link.com",
-        github: "https://github.com/your-username/until-every-cage-is-empty"
+        live: "https://untileverycage.org",
+        github: "https://github.com/eliPerez12/UntilEveryCage"
       },
       media: {
         type: "video",
@@ -65,7 +65,7 @@ fn process_locations(raw_data: Vec<RawLocation>) -> Vec<Location> {
         "Low-level systems programming"
       ],
       links: {
-        github: "https://github.com/your-username/electron-cpu"
+        github: "https://github.com/eliPerez12/electron"
       },
       media: {
         type: "video",
