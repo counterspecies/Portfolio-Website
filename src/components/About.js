@@ -25,9 +25,9 @@ const About = () => {
 
               <p>
                 Beyond coding, I bring <span className="highlight">entrepreneurial experience</span> from founding 
-                and operating my own mobile detailing business, where I developed strong client management and 
+                and operating my own mobile detailing business, where I developed strong marketing, client management, and 
                 attention-to-detail skills. I am also a musician, and have over 9 years of experience playing the trumpet,
-                and play other instruments like the bass guitar.
+                and many other instruments like the bass guitar.
               </p>
 
               <p>
