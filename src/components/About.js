@@ -81,7 +81,7 @@ const About = () => {
 
             <div className="quick-facts">
               <div className="fact-item">
-                <div className="fact-number">22K+</div>
+                <div className="fact-number">30K+</div>
                 <div className="fact-label">Data Points Served</div>
               </div>
               <div className="fact-item">
@@ -94,7 +94,7 @@ const About = () => {
               </div>
               <div className="fact-item">
                 <div className="fact-number">High-Impact</div>
-                <div className="fact-label">Projects</div>
+                <div className="fact-label">Crowd Sourced Projects</div>
               </div>
             </div>
           </div>

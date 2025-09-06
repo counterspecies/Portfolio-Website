@@ -12,7 +12,7 @@ const Projects = () => {
       description: "Engineered a high-performance RESTful API in Rust using the Axum framework to serve over 22,000 data points to a global user base of activists and researchers. Developed a dynamic front-end with Vanilla JavaScript and Leaflet.js.",
       technologies: ["Rust", "Axum", "JavaScript", "Leaflet.js", "PostgreSQL", "Python"],
       features: [
-        "RESTful API serving 22,000+ data points",
+        "RESTful API serving 30,000+ data points",
         "Interactive map visualization",
         "Global user base of activists and researchers",
         "Open-source community contributions",
