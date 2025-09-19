@@ -166,25 +166,6 @@ const Contact = () => {
               </div>
 
               <div className="form-group">
-                <label htmlFor="subject">Subject</label>
-                <select
-                  id="subject"
-                  name="subject"
-                  value={formData.subject}
-                  onChange={handleChange}
-                  required
-                >
-                  <option value="">Select a subject</option>
-                  <option value="Job Opportunity">Job Opportunity</option>
-                  <option value="Internship Opportunity">Internship Opportunity</option>
-                  <option value="Project Collaboration">Project Collaboration</option>
-                  <option value="Technical Discussion">Technical Discussion</option>
-                  <option value="General Inquiry">General Inquiry</option>
-                  <option value="Other">Other</option>
-                </select>
-              </div>
-
-              <div className="form-group">
                 <label htmlFor="message">Message</label>
                 <textarea
                   id="message"
@@ -221,7 +202,7 @@ const Contact = () => {
             </div>
             <div className="output">
               <p>Thanks for visiting my portfolio!</p>
-              <p>© 2025 Eli Perez | Built with React & passion for code</p>
+              <p>© 2025 Eli Perez</p>
             </div>
           </div>
         </div>

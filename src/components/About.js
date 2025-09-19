@@ -11,28 +11,39 @@ const About = () => {
             <h2 className="code-heading">About Me</h2>
             <div className="about-description">
               <p>
-                I'm a driven Computer Science student at <span className="highlight">Southwestern Community College </span> 
-                 with a passion for building impactful software. My journey in programming started with self-studying 
-                for the AP Computer Science exam, where I achieved the highest possible score (5).
+                I'm a mission driven software engineer, currently studying computer science at <span className="highlight">Southwestern Community College </span>.
+                My journey in programming started at the age of 15, with my facination of low-level computing and systems design,
+                which has since evolved into a passion for building impactful software solutions.
               </p>
               
               <p>
                 What sets me apart is my deep love for <span className="rust-highlight">systems programming</span> and 
                 <span className="rust-highlight"> Rust</span>. I've built everything from RESTful APIs serving thousands 
-                of users to custom 8-bit CPUs with complete instruction sets. I enjoy working at all levels of the stack, 
-                from low-level assembly to modern web frameworks.
+                of users to <span className="rust-highlight">entiely custom 8-bit microcontrollers</span>  with complete instruction sets. I enjoy working at all levels of the stack, 
+                from low-level assembly to high level web frameworks.
               </p>
 
+
+              <p>My open-source project, "Until Every Cage is Empty,"
+                is making a significant real-world impact by providing a critical data resource
+                to <span className="highlight">for animal rights activists, researchers, and organizations.</span> Its value to the community has been recognized through features in vegan newsletters and promotions by major activist organizations,
+                including <span className="highlight">PETA and CAFT</span>. As the lead engineer,
+                I developed this full-stack application in <span className="rust-highlight">Rust + Vanilla JS</span> to serve over <span className="highlight">38,000 data points</span> to more than <span className="highlight">3,000 monthly users</span>,
+                creating the first-of-its-kind global database that exposes the scale of the animal agriculture industry.
+                The project's potential for direct, tangible impact was also recently recognized by The Pollination Project Foundation,
+                which awarded it a competitive <span className="highlight">$1,000 seed grant</span> to support its continued development.
+                </p>
+
+                
               <p>
                 Beyond coding, I bring <span className="highlight">entrepreneurial experience</span> from founding 
                 and operating my own mobile detailing business, where I developed strong marketing, client management, and 
-                attention-to-detail skills. I am also a musician, and have over 9 years of experience playing the trumpet,
-                and many other instruments like the bass guitar.
+                attention-to-detail skills. I am also a musician, having played instruments since the age of 10, and even started a 
+                Jazz band in high school, preforming at local events and school concerts.
               </p>
 
               <p>
-                I'm actively seeking <span className="highlight">software engineering internship opportunities </span> 
-                where I can contribute to meaningful projects while continuing to grow as a developer.
+                I'm actively seeking a <span className="highlight"> Summer 2026 software engineering internship </span> where I can apply my unique blend of technical skill and mission-driven focus to a team building meaningful projects.
               </p>
             </div>
 
@@ -81,7 +92,7 @@ const About = () => {
 
             <div className="quick-facts">
               <div className="fact-item">
-                <div className="fact-number">30K+</div>
+                <div className="fact-number">38K+</div>
                 <div className="fact-label">Data Points Served</div>
               </div>
               <div className="fact-item">
@@ -89,7 +100,7 @@ const About = () => {
                 <div className="fact-label">Years Programming</div>
               </div>
               <div className="fact-item">
-                <div className="fact-number">1.5k+</div>
+                <div className="fact-number">3,000+</div>
                 <div className="fact-label">Monthly users</div>
               </div>
               <div className="fact-item">
