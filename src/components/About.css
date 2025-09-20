@@ -5,8 +5,8 @@
 
 .about-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 80px;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 60px;
   align-items: start;
 }
 
@@ -91,11 +91,17 @@
   gap: 30px;
 }
 
+.terminal-window,
 .stats-card {
   background: var(--bg-secondary);
   border-radius: 12px;
   border: 1px solid var(--bg-tertiary);
   overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.terminal-content {
+  padding: 20px;
 }
 
 .terminal-header {
@@ -208,6 +214,10 @@
   
   .stats-content pre {
     font-size: 10px;
+  }
+  
+  .terminal-content {
+    padding: 16px;
   }
 }
 

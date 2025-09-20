@@ -2,6 +2,8 @@
   text-align: left;
   min-height: 100vh;
   background: transparent;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 /* Main content styling */

@@ -9,42 +9,48 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <h2 className="code-heading">About Me</h2>
-            <div className="about-description">
-              <p>
-                I'm a mission driven software engineer, currently studying computer science at <span className="highlight">Southwestern Community College </span>.
-                My journey in programming started at the age of 15, with my facination of low-level computing and systems design,
-                which has since evolved into a passion for building impactful software solutions.
-              </p>
-              
-              <p>
-                What sets me apart is my deep love for <span className="rust-highlight">systems programming</span> and 
-                <span className="rust-highlight"> Rust</span>. I've built everything from RESTful APIs serving thousands 
-                of users to <span className="rust-highlight">entiely custom 8-bit microcontrollers</span>  with complete instruction sets. I enjoy working at all levels of the stack, 
-                from low-level assembly to high level web frameworks.
-              </p>
+            <div className="terminal-window">
+              <div className="terminal-header">
+                <div className="terminal-buttons">
+                  <span className="btn-red"></span>
+                  <span className="btn-yellow"></span>
+                  <span className="btn-green"></span>
+                </div>
+                <div className="terminal-title">eli@portfolio:~$ cat about_me.txt</div>
+              </div>
+              <div className="terminal-content">
+                <div className="about-description">
+                  <p>
+                    I'm a mission driven software engineer, currently studying computer science at <span className="highlight">Southwestern Community College </span>.
+                    My journey in programming started at the age of 15, with my facination of low-level computing and systems design,
+                    which has since evolved into a passion for building impactful software solutions.
+                  </p>
+                  
+                  <p>
+                    What sets me apart is my deep love for <span className="rust-highlight">systems programming</span> and 
+                    <span className="rust-highlight"> Rust</span>. I've built everything from RESTful APIs serving thousands 
+                    of users to <span className="rust-highlight">entiely custom 8-bit microcontrollers</span>  with complete instruction sets. I enjoy working at all levels of the stack, 
+                    from low-level assembly to high level web frameworks.
+                  </p>
 
 
-              <p>My open-source project, "Until Every Cage is Empty,"
-                is making a significant real-world impact by providing a critical data resource
-                to <span className="highlight">for animal rights activists, researchers, and organizations.</span> Its value to the community has been recognized through features in vegan newsletters and promotions by major activist organizations,
-                including <span className="highlight">PETA and CAFT</span>. As the lead engineer,
-                I developed this full-stack application in <span className="rust-highlight">Rust + Vanilla JS</span> to serve over <span className="highlight">38,000 data points</span> to more than <span className="highlight">3,000 monthly users</span>,
-                creating the first-of-its-kind global database that exposes the scale of the animal agriculture industry.
-                The project's potential for direct, tangible impact was also recently recognized by The Pollination Project Foundation,
-                which awarded it a competitive <span className="highlight">$1,000 seed grant</span> to support its continued development.
-                </p>
-
-                
-              <p>
-                Beyond coding, I bring <span className="highlight">entrepreneurial experience</span> from founding 
-                and operating my own mobile detailing business, where I developed strong marketing, client management, and 
-                attention-to-detail skills. I am also a musician, having played instruments since the age of 10, and even started a 
-                Jazz band in high school, preforming at local events and school concerts.
-              </p>
-
-              <p>
-                I'm actively seeking a <span className="highlight"> Summer 2026 software engineering internship </span> where I can apply my unique blend of technical skill and mission-driven focus to a team building meaningful projects.
-              </p>
+                  <p>My open-source project, "Until Every Cage is Empty,"
+                    is making a significant real-world impact by providing a critical data resource
+                    to <span className="highlight">for animal rights activists, researchers, and organizations.</span> Its value to the community has been recognized through features in vegan newsletters and promotions by major activist organizations,
+                    including <span className="highlight">PETA and CAFT</span>.</p>
+                    
+                    <p> 
+                    As the lead engineer,
+                    I developed this full-stack application in <span className="rust-highlight">Rust + Vanilla JS</span> to serve over <span className="highlight">38,000 data points</span> to more than <span className="highlight">3,000 monthly users</span>,
+                    creating the first-of-its-kind global database that exposes the scale of the animal agriculture industry.
+                    The project's potential for direct, tangible impact was also recently recognized by The Pollination Project Foundation,
+                    which awarded it a competitive <span className="highlight">$1,000 seed grant</span> to support its continued development.
+                    </p>
+                  <p>
+                    I'm actively seeking a <span className="highlight"> Summer 2026 software engineering internship </span> where I can apply my unique blend of technical skill and mission-driven focus to a team building meaningful projects.
+                  </p>
+                </div>
+              </div>
             </div>
 
             {/* <div className="achievements">
