@@ -44,22 +44,30 @@ const Hero = () => {
                 </h1>
                 <h2 className="subtitle">{subtitle}</h2>
                 <p className="description">
-                  A driven Computer Science student with proven experience developing 
-                  high-performance, full-stack web applications in <span className="rust-highlight">Rust</span>. 
-                  Passionate about systems programming and building impactful software.
+                  I'm a software engineer and activist dedicated to creating high-performance,
+                  open-source tools that drive social change.
+                  I specialize in <span className="rust-highlight">full-stack</span> development, 
+                  <span className="rust-highlight"> data visualization</span>, and <span className="rust-highlight">systems programming</span>,
+                  focused on bringing data-driven solutions to complex social problems.
                 </p>
               </div>
+              
               <div className="command-line">
                 <span className="prompt">$</span>
-                <span className="command">cat skills.rs</span>
+                <span className="command">cowsay "Welcome to my portfolio!"</span>
               </div>
-              <div className="skills-preview">
-                <div className="skill-tag">Rust</div>
-                <div className="skill-tag">Javascript</div>
-                <div className="skill-tag">Python</div>
-                <div className="skill-tag">Full-Stack</div>
-                <div className="skill-tag">Systems Programming</div>
+              <div className="ascii-output">
+                <pre>{`
+ ____________________________
+< Welcome to my portfolio! >
+ ----------------------------
+        \\   ^__^
+         \\  (oo)\\_______
+            (__)\\       )\\/\\
+                ||----w |
+                ||     ||`}</pre>
               </div>
+
             </div>
           </div>
           

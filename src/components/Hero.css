@@ -85,6 +85,19 @@
   padding-left: 16px;
 }
 
+.ascii-output {
+  margin-top: 15px;
+  color: var(--accent-green);
+  font-size: 0.7rem;
+  line-height: 1.2;
+}
+
+.ascii-output pre {
+  margin: 0;
+  font-family: 'JetBrains Mono', monospace;
+  white-space: pre;
+}
+
 .name-display {
   font-size: 2.5rem;
   font-weight: 700;
@@ -143,6 +156,8 @@
   gap: 16px;
   flex-wrap: wrap;
 }
+
+
 
 /* Code Snippet Visual */
 .hero-visual {
