@@ -56,7 +56,7 @@ const Hero = () => {
           </div>
           
           <div className="hero-actions">
-            <a href="#projects" className="btn-primary">
+            <a href="#projects" className="btn-secondary">
               View My Work
             </a>
             <a href="#contact" className="btn-secondary">
@@ -66,7 +66,7 @@ const Hero = () => {
               href="/PerezEli_Resume.pdf" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="btn-secondary"
+              className="btn-primary"
             >
               Download Resume
             </a>
@@ -105,7 +105,7 @@ const Hero = () => {
         mission: "Create impactful software"
     };
     
-    eli.create_amazing_things();
+    eli.do_the_dev_stuff();
 }`}
             </SyntaxHighlighter>
           </div>

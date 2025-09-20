@@ -139,10 +139,6 @@ useEffect(() => {
       <div className="container">
         <div className="section-header">
           <h2 className="code-heading">Featured Projects</h2>
-          <p className="section-subtitle">
-            Here are some of my favorite projects that showcase my skills in 
-            systems programming, web development, and problem-solving.
-          </p>
         </div>
 
         <div className="projects-grid">
