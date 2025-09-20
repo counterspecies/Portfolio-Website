@@ -1,8 +1,6 @@
 .projects {
   padding: 100px 0;
-  background: 
-    radial-gradient(circle at 70% 30%, rgba(78, 201, 176, 0.05) 0%, transparent 50%),
-    var(--bg-primary);
+  background: transparent;
 }
 
 .section-header {

@@ -1,7 +1,7 @@
 .App {
   text-align: left;
   min-height: 100vh;
-  background-color: var(--bg-primary);
+  background: transparent;
 }
 
 /* Main content styling */
