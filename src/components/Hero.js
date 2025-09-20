@@ -76,7 +76,7 @@ const Hero = () => {
         <div className="hero-visual">
           <div className="code-snippet">
             <div className="code-header">
-              <span className="file-name">main.rs</span>
+              <span className="file-name">Editing: main.rs</span>
             </div>
             <SyntaxHighlighter
               language="rust"
@@ -108,6 +108,34 @@ const Hero = () => {
     eli.create_amazing_things();
 }`}
             </SyntaxHighlighter>
+          </div>
+          
+          <div className="terminal-output">
+            <div className="terminal-header">
+              <div className="terminal-buttons">
+                <span className="btn-red"></span>
+                <span className="btn-yellow"></span>
+                <span className="btn-green"></span>
+              </div>
+              <div className="terminal-title">eli@portfolio:~/cowsay-project$</div>
+            </div>
+            <div className="terminal-body">
+              <div className="command-line">
+                <span className="prompt">$</span>
+                <span className="command">cargo run -- -cowsay</span>
+              </div>
+              <div className="ascii-output">
+                <pre>{`    ________________________________
+   / Mooo! Welcome to Eli's Portfolio \\
+   \\ Website!                         /
+    --------------------------------
+         \\   ^__^ 
+          \\  (oo)\\_______
+             (__)\\       )\\/\\
+                 ||----w |
+                 ||     ||`}</pre>
+              </div>
+            </div>
           </div>
         </div>
       </div>
