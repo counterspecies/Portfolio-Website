@@ -60,8 +60,6 @@ const Contact = () => {
         <div className="section-header">
           <h2 className="code-heading">Get In Touch</h2>
           <p className="section-subtitle">
-            I'm actively seeking software engineering internship opportunities. 
-            Let's connect and discuss how I can contribute to your team!
           </p>
         </div>
 
@@ -69,10 +67,6 @@ const Contact = () => {
           <div className="contact-info">
             <div className="info-header">
               <h3>Let's Connect</h3>
-              <p>
-                Whether you have an internship opportunity, want to discuss a project, 
-                or just want to chat about technology, I'd love to hear from you.
-              </p>
             </div>
 
             <div className="contact-methods">
@@ -101,41 +95,22 @@ const Contact = () => {
             <div className="availability-status">
               <div className="status-indicator">
                 <div className="status-dot available"></div>
-                <span>Available for internships</span>
+                <span>Available for Jobs / Internships</span>
               </div>
               <div className="status-details">
                 <p>
                   <strong>Seeking:</strong> Software Engineering Jobs, Summer 2026 Software Engineering Internships<br/>
-                  <strong>Interests:</strong> Systems Programming, Web Development, DevOps<br/>
+                  <strong>Interests:</strong> Full-stack development, Data visualization, Systems programming<br/>
                   <strong>Location:</strong> San Diego, CA (Open to remote/relocation)
                 </p>
               </div>
             </div>
 
-            <div className="quick-actions">
-              <a 
-                href="/PerezEli_Resume.pdf" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="btn-primary"
-              >
-                📄 Download Resume
-              </a>
-              <a 
-                href="https://www.linkedin.com/in/eli-perez-782714315/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="btn-secondary"
-              >
-                💼 LinkedIn Profile
-              </a>
-            </div>
           </div>
 
           <div className="contact-form-section">
             <div className="form-header">
               <h3>Send a Message</h3>
-              <p>Use the form below or reach out directly via email.</p>
             </div>
 
             <form className="contact-form" onSubmit={handleSubmit}>
@@ -183,14 +158,6 @@ const Contact = () => {
                 <span className="send-icon">→</span>
               </button>
             </form>
-
-            <div className="form-note">
-              <p>
-                💡 <strong>Note:</strong> This form will open your default email client. 
-                You can also reach me directly at{' '}
-                <a href="mailto:eliperez0024@gmail.com">eliperez0024@gmail.com</a>
-              </p>
-            </div>
           </div>
         </div>
 

@@ -19,7 +19,6 @@ const Experience = () => {
         "Communicated technical solutions to non-technical clients",
         "Maintained high customer satisfaction rates"
       ],
-      skills: ["Hardware Troubleshooting", "Software Diagnostics", "Client Communication", "Problem Solving", "Technical Support"]
     },
     {
       id: 2,
@@ -41,7 +40,6 @@ const Experience = () => {
         "Ensured flawless, high-quality results for every client",
         "Developed strong client communication and management skills"
       ],
-      skills: ["Project Management", "Client Relations", "Quality Assurance", "Business Operations", "Marketing"]
     },
     {
       id: 3,
@@ -57,7 +55,6 @@ const Experience = () => {
         "Deconstructed complex musical concepts into simple, understandable lessons for middle school students.",
         "Developed structured lesson plans and provided constructive feedback to foster student growth and confidence.",
       ],
-      skills: ["Education", "Communication", "Music Theory"]
     }
   ];
 
@@ -83,42 +80,42 @@ const Experience = () => {
     {
       title: "Open Source Impact",
       bulletPoints: [
-        "Built mapping application serving 22,000+ data points to thousands of global users worldwide",
+        "Built mapping application serving 38,000+ data points to thousands of global users worldwide",
         "Engineered high-performance RESTful API in Rust using Axum framework, with a Vanilla JS and Leaflet.js front-end",
-        "Collaborated with dozens of activists and researchers to create impactful open-source software"
+        "Collaborated with dozens of activists, researchers, and developers to create impactful open-source software"
       ],
       icon: "🗺️",
-      year: "2025"
+      year: ""
     },
     {
-      title: "AP Computer Science Exam",
+      title: "The Pollination Project Grant Recipient",
       bulletPoints: [
-        "Achieved highest possible score (5) through dedicated self-study",
-        "Mastered advanced programming concepts, algorithms, and problem-solving skills independently",
-        "Completed 5 AP exams total during senior year"
+        "Recived a competitive $1,000 seed grant from The Pollination Project to support development of open-source animal advocacy software",
+        "Mastered communtiy outreach and crowdsourced development",
+        "Recognized for real-world impact and innovation in animal advocacy"
       ],
-      icon: "🏆",
-      year: "2024"
+      icon: "🐝",
+      year: ""
     },
     {
-      title: "Music Achievements",
+      title: "Highly Awarded Musician",
       bulletPoints: [
-        "Selected for highly competitive, audition-only ensemble for six consecutive years; earned Principal Chair Trumpet for two years",
+        "Selected for top regional, audition-only ensemble for six consecutive years, landing leadership roles",
         "Started a school Jazz Band, performed concerts and solos as lead trumpet",
         "Recognized as 'Most Outstanding Musician' and received various accolades in local and regional competitions"
       ],
       icon: "🎵",
-      year: "Highly Awarded Musician | 6 Years in Top Regional Ensemble"
+      year: ""
     },
     {
       title: "Social Media Impact for Animal Advocacy",
       bulletPoints: [
         "Launched YouTube channel and Instagram focused on animal welfare, reaching over 100k views",
         "Created engaging content that educated audiences about animal care and advocacy",
-        "Built active community of animal lovers and advocates through consistent, impactful messaging"
+        "Built active community of animal lovers, developers, and advocates through consistent, impactful messaging"
       ],
       icon: "📱",
-      year: "2025"
+      year: ""
     }
   ];
 
@@ -206,15 +203,6 @@ const Experience = () => {
                           <li key={i}>{achievement}</li>
                         ))}
                       </ul>
-                    </div>
-
-                    <div className="experience-skills">
-                      <h5>Skills Applied:</h5>
-                      <div className="skills-tags">
-                        {exp.skills.map((skill) => (
-                          <span key={skill} className="skill-tag">{skill}</span>
-                        ))}
-                      </div>
                     </div>
                   </div>
                 </div>

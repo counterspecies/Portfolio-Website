@@ -55,7 +55,7 @@ const Header = () => {
                   rel="noopener noreferrer"
                   className="nav-link resume-link"
                 >
-                  Resume
+                  Download My Resume
                 </a>
               </li>
             </ul>
