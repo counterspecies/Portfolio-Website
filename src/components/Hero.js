@@ -44,28 +44,12 @@ const Hero = () => {
                 </h1>
                 <h2 className="subtitle">{subtitle}</h2>
                 <p className="description">
-                  I'm a software engineer and activist dedicated to creating high-performance,
+                  I'm dedicated to creating high-performance,
                   open-source tools that drive social change.
                   I specialize in <span className="rust-highlight">full-stack</span> development, 
                   <span className="rust-highlight"> data visualization</span>, and <span className="rust-highlight">systems programming</span>,
                   focused on bringing data-driven solutions to complex social problems.
                 </p>
-              </div>
-              
-              <div className="command-line">
-                <span className="prompt">$</span>
-                <span className="command">cowsay "Welcome to my portfolio!"</span>
-              </div>
-              <div className="ascii-output">
-                <pre>{`
- ____________________________
-< Welcome to my portfolio! >
- ----------------------------
-        \\   ^__^
-         \\  (oo)\\_______
-            (__)\\       )\\/\\
-                ||----w |
-                ||     ||`}</pre>
               </div>
 
             </div>
@@ -110,17 +94,18 @@ const Hero = () => {
               }}
             >
               {`fn main() {
-    let developer = Developer {
+    let eli = Developer {
         name: "Eli Perez",
         skills: vec![
-            "Rust", "React", "PostgreSQL", 
-            "Python", "Systems Programming"
+            Rust, Javascript,
+            DataVisualization, 
+            Python, SystemsProgramming
         ],
-        passion: "Building impactful software",
-        goal: "Software Engineering Internship"
+        loves: "Animals",
+        mission: "Create impactful software"
     };
     
-    developer.create_amazing_things();
+    eli.create_amazing_things();
 }`}
             </SyntaxHighlighter>
           </div>

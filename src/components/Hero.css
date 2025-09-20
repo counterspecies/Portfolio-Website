@@ -87,9 +87,10 @@
 
 .ascii-output {
   margin-top: 15px;
-  color: var(--accent-green);
+  color: var(--text-primary);
   font-size: 0.7rem;
   line-height: 1.2;
+  overflow-x: hidden;
 }
 
 .ascii-output pre {
@@ -234,6 +235,21 @@
     font-size: 12px;
     padding: 16px;
   }
+  
+  /* Mobile cow styling fixes */
+  .ascii-output {
+    font-size: 0.6rem;
+    line-height: 1.1;
+    overflow-x: hidden;
+    max-width: 100%;
+    text-align: left;
+  }
+  
+  .ascii-output pre {
+    white-space: pre;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 @media (max-width: 480px) {
@@ -246,5 +262,16 @@
   .hero-actions .btn-secondary {
     width: 100%;
     text-align: center;
+  }
+  
+  /* Even smaller cow for very small screens */
+  .ascii-output {
+    font-size: 0.5rem;
+    line-height: 1.0;
+    overflow-x: hidden;
+  }
+  
+  .terminal-body {
+    padding: 12px;
   }
 }
