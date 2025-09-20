@@ -36,6 +36,26 @@
   font-weight: 600;
 }
 
+.education-highlight {
+  color: var(--accent-green);
+  font-weight: 600;
+}
+
+.achievement-highlight {
+  color: var(--accent-yellow);
+  font-weight: 600;
+}
+
+.organization-highlight {
+  color: var(--accent-purple);
+  font-weight: 600;
+}
+
+.career-highlight {
+  color: var(--accent-green);
+  font-weight: 600;
+}
+
 /* Achievements Section */
 .achievements h3 {
   color: var(--accent-green);

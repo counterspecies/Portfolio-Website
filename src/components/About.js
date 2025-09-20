@@ -21,7 +21,7 @@ const About = () => {
               <div className="terminal-content">
                 <div className="about-description">
                   <p>
-                    I'm a mission driven software engineer, currently studying computer science at <span className="highlight">Southwestern Community College </span>.
+                    I'm a mission driven software engineer, currently studying computer science at <span className="education-highlight">Southwestern Community College </span>.
                     My journey in programming started at the age of 15, with my facination of low-level computing and systems design,
                     which has since evolved into a passion for building impactful software solutions.
                   </p>
@@ -34,20 +34,23 @@ const About = () => {
                   </p>
 
 
-                  <p>My open-source project, "Until Every Cage is Empty,"
+                  <p>My open-source project, <span className="organization-highlight">"Until Every Cage is Empty"</span>,
                     is making a significant real-world impact by providing a critical data resource
-                    to <span className="highlight">for animal rights activists, researchers, and organizations.</span> Its value to the community has been recognized through features in vegan newsletters and promotions by major activist organizations,
-                    including <span className="highlight">PETA and CAFT</span>.</p>
+                    to animal rights <span className="organization-highlight">
+                      activists</span>, <span className="organization-highlight">
+                      researchers</span>, and <span className="organization-highlight">
+                      organizations</span>. Its value to the community has been recognized through features in vegan newsletters and promotions by major activist organizations,
+                    including <span className="organization-highlight">PETA and CAFT</span>.</p>
                     
                     <p> 
                     As the lead engineer,
-                    I developed this full-stack application in <span className="rust-highlight">Rust + Vanilla JS</span> to serve over <span className="highlight">38,000 data points</span> to more than <span className="highlight">3,000 monthly users</span>,
+                    I developed this full-stack application in <span className="rust-highlight">Rust + Vanilla JS</span> to serve over <span className="achievement-highlight">38,000 data points</span> to more than <span className="achievement-highlight">3,000 monthly users</span>,
                     creating the first-of-its-kind global database that exposes the scale of the animal agriculture industry.
                     The project's potential for direct, tangible impact was also recently recognized by The Pollination Project Foundation,
-                    which awarded it a competitive <span className="highlight">$1,000 seed grant</span> to support its continued development.
+                    which awarded it a competitive <span className="achievement-highlight">$1,000 seed grant</span> to support its continued development.
                     </p>
                   <p>
-                    I'm actively seeking a <span className="highlight"> Summer 2026 software engineering internship </span> where I can apply my unique blend of technical skill and mission-driven focus to a team building meaningful projects.
+                    I'm actively seeking a <span className="career-highlight"> Summer 2026 software engineering internship </span> where I can apply my unique blend of technical skill and mission-driven focus to a team building meaningful projects.
                   </p>
                 </div>
               </div>

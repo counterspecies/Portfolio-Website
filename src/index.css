@@ -13,11 +13,11 @@
   --text-primary: #d4d4d4;
   --text-secondary: #969696;
   --accent-blue: #569cd6;
-  --accent-green: #4ec9b0;
-  --accent-orange: #ce9178;
+  --accent-green: #57d1b9;
+  --accent-orange: #cd7f60;
   --accent-purple: #c586c0;
   --accent-red: #f44747;
-  --accent-yellow: #dcdcaa;
+  --accent-yellow: #c8c89a;
   
   /* Custom additions */
   --gradient-primary: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
@@ -74,7 +74,6 @@ code, pre {
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 /* Hide scrollbar for demo videos while keeping functionality */
