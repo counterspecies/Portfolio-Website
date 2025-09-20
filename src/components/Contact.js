@@ -167,10 +167,8 @@ const Contact = () => {
               <span className="prompt">$</span>
               <span className="command">echo "Thanks for visiting my portfolio!"</span>
             </div>
-            <div className="output">
               <p>Thanks for visiting my portfolio!</p>
-              <p>© 2025 Eli Perez</p>
-            </div>
+            <p>© 2025 Eli Perez</p>
           </div>
         </div>
       </div>
