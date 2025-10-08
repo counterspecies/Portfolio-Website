@@ -8,14 +8,17 @@ const Experience = () => {
       id: 1,
       title: "Computer Repair Technician",
       company: "Elite Computers",
-      period: "Aug 2024 - Present",
+      period: "Aug 2024 - Sep 2025",
       type: "Technical Support",
       location: "San Diego, CA",
+      links: {
+        website: "https://elitecocv.com/",
+        google: "https://share.google/cw6gobj8LdSQbbiZ0",
+        instagram: "https://www.instagram.com/elite_computers_bonita/"
+      },
       description: "Systematically diagnosed and resolved complex hardware and software issues for a diverse client base, applying logical troubleshooting methodologies to identify root causes.",
       achievements: [
-        "Diagnosed complex hardware and software issues",
-        "Applied logical troubleshooting methodologies",
-        "Identified root causes efficiently",
+        "Systematically diagnosed and resolved complex hardware and software issues for a diverse client base",
         "Communicated technical solutions to non-technical clients",
         "Maintained high customer satisfaction rates"
       ],
@@ -36,23 +39,25 @@ const Experience = () => {
       achievements: [
         "Launched and operated a self-started service business",
         "Managed complete client lifecycle from marketing to delivery",
-        "Applied meticulous attention to detail in multi-step processes",
-        "Ensured flawless, high-quality results for every client",
-        "Developed strong client communication and management skills"
+        "Receivied dozens of 5 star reviews on Google"
       ],
     },
     {
       id: 3,
       title: "Music Tutor",
       company: "Chula Vista Middle School",
-      period: "Aug 2021 - June  2024",
+      period: "July 2021 - June  2024",
       type: "Education",
       location: "Chula Vista, CA",
+      links: {
+        website: "https://vapa.sweetwaterschools.org/",
+        google: "https://share.google/QOnAzbHQvWZMFlqS4",
+        instagram: "https://www.instagram.com/cvmasb/"
+      },
       description: "Oversaw the musical development of middle school students by providing tailored lessons and feedback in both individual and group settings.",
       achievements: [
         "Led weekly music lessons with middle school musicians.",
         "Provided one on one consultation as well as group sessions.",
-        "Deconstructed complex musical concepts into simple, understandable lessons for middle school students.",
         "Developed structured lesson plans and provided constructive feedback to foster student growth and confidence.",
       ],
     }
@@ -66,8 +71,7 @@ const Experience = () => {
     courses: [
       "Data Structures & Algorithms",
       "Object-Oriented Programming", 
-      "Computer Architecture",
-      "Discrete Mathematics"
+      "Computer Architecture"
     ],
     achievements: [
       "Strong academic performance (3.41 GPA)",
@@ -80,7 +84,7 @@ const Experience = () => {
     {
       title: "Open Source Impact",
       bulletPoints: [
-        "Built mapping application serving 38,000+ data points to thousands of global users worldwide",
+        "Built mapping application serving 38,500+ data points to thousands of global users worldwide",
         "Engineered high-performance RESTful API in Rust using Axum framework, with a Vanilla JS and Leaflet.js front-end",
         "Collaborated with dozens of activists, researchers, and developers to create impactful open-source software"
       ],

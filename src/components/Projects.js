@@ -91,44 +91,6 @@ impl CPU {
     }
 }`
       }
-    },
-    {
-      id: 3,
-      title: "Portfolio Website",
-      subtitle: "This Site - React & Modern Design",
-      description: "A modern, responsive portfolio website built with React, featuring terminal-inspired design, smooth animations, and multimedia project showcases. Designed to highlight technical skills and project demonstrations.",
-      technologies: ["React", "CSS3", "JavaScript", "Responsive Design", "Animation"],
-      features: [
-        "Terminal-inspired dark theme",
-        "Smooth animations and transitions",
-        "Multimedia project showcases",
-        "Responsive design for all devices",
-        "Code aesthetic with syntax highlighting"
-      ],
-      links: {
-        github: "https://github.com/eliPerez12/Portfolio-Website"
-      },
-      media: {
-        type: "video",
-        src: "/videos/portfolio-demo.mp4",
-        placeholder: "/images/portfolio-placeholder.jpg",
-        alt: "Portfolio website demo",
-        content: "💻 React Portfolio Site"
-      },
-      codeSnippet: {
-        language: "javascript",
-        title: "Terminal Typing Animation",
-        code: `// Animated typing effect for terminal
-useEffect(() => {
-  if (currentIndex < fullText.length) {
-    const timeout = setTimeout(() => {
-      setDisplayText(fullText.slice(0, currentIndex + 1));
-      setCurrentIndex(currentIndex + 1);
-    }, 100);
-    return () => clearTimeout(timeout);
-  }
-}, [currentIndex, fullText]);`
-      }
     }
   ];
 
