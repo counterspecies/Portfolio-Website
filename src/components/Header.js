@@ -50,7 +50,7 @@ const Header = () => {
               ))}
               <li className="nav-item">
                 <a 
-                  href="/PerezEli_Resume.pdf" 
+                  href="/PerezEli_Resume_2025.pdf" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="nav-link resume-link"
