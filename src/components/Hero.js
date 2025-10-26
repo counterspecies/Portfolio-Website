@@ -63,7 +63,7 @@ const Hero = () => {
               Get In Touch
             </a>
             <a 
-              href="\public/PerezEli_Resume_2025.pdf" 
+              href="PerezEli_Resume_2025.pdf" 
               target="_blank" 
               rel="noopener noreferrer"
               className="btn-primary"
