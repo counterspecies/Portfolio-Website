@@ -43,14 +43,14 @@ const Contact = () => {
     {
       icon: '💼',
       label: 'LinkedIn',
-      value: 'linkedin.com/in/eli-perez',
-      link: 'https://www.linkedin.com/in/eli-perez-782714315/'
+      value: 'linkedin.com/in/eliperez-dev',
+      link: 'https://www.linkedin.com/in/eliperez-dev/'
     },
     {
       icon: '🔗',
       label: 'GitHub',
-      value: 'github.com/eliPerez12',
-      link: 'https://github.com/eliPerez12'
+      value: 'github.com/eliperez-dev',
+      link: 'https://github.com/eliperez-dev'
     }
   ];
 
