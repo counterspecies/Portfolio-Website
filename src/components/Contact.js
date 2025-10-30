@@ -29,28 +29,28 @@ const Contact = () => {
 
   const contactInfo = [
     {
-      icon: '📧',
+      icon: '',
       label: 'Email',
       value: 'eliperez0024@gmail.com',
       link: 'mailto:eliperez0024@gmail.com'
     },
     {
-      icon: '📍',
+      icon: '',
       label: 'Location',
       value: 'San Diego, CA',
       link: null
     },
     {
-      icon: '💼',
+      icon: '',
       label: 'LinkedIn',
       value: 'linkedin.com/in/eliperez-dev',
       link: 'https://www.linkedin.com/in/eliperez-dev/'
     },
     {
-      icon: '🔗',
+      icon: '',
       label: 'GitHub',
-      value: 'github.com/eliperez-dev',
-      link: 'https://github.com/eliperez-dev'
+      value: 'github.com/eliPerez12',
+      link: 'https://github.com/eliPerez12'
     }
   ];
 
@@ -90,20 +90,6 @@ const Contact = () => {
                   </div>
                 </div>
               ))}
-            </div>
-
-            <div className="availability-status">
-              <div className="status-indicator">
-                <div className="status-dot available"></div>
-                <span>Available for Jobs / Internships</span>
-              </div>
-              <div className="status-details">
-                <p>
-                  <strong>Seeking:</strong> Software Engineering Jobs, Summer 2026 Software Engineering Internships<br/>
-                  <strong>Interests:</strong> Full-stack development, Data visualization, Systems programming<br/>
-                  <strong>Location:</strong> San Diego, CA (Open to remote/relocation)
-                </p>
-              </div>
             </div>
 
           </div>
@@ -163,11 +149,6 @@ const Contact = () => {
 
         <div className="terminal-footer">
           <div className="terminal-content">
-            <div className="command-line">
-              <span className="prompt">$</span>
-              <span className="command">echo "Thanks for visiting my portfolio!"</span>
-            </div>
-              <p>Thanks for visiting my portfolio!</p>
             <p>© 2025 Eli Perez</p>
           </div>
         </div>
