@@ -22,7 +22,7 @@ const Contact = () => {
     // For now, we'll create a mailto link
     const subject = encodeURIComponent(formData.subject || 'Portfolio Contact');
     const body = encodeURIComponent(
-      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+      `${formData.message}`
     );
     window.location.href = `mailto:eliperez0024@gmail.com?subject=${subject}&body=${body}`;
   };
@@ -110,19 +110,6 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   placeholder="Your full name"
-                />
-              </div>
-
-              <div className="form-group">
-                <label htmlFor="email">Email</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                  placeholder="your.email@example.com"
                 />
               </div>
 
