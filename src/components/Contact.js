@@ -98,21 +98,7 @@ const Contact = () => {
             <div className="form-header">
               <h3>Send a Message</h3>
             </div>
-
-            <form className="contact-form" onSubmit={handleSubmit}>
-              <div className="form-group">
-                <label htmlFor="name">Name</label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                  placeholder="Your full name"
-                />
-              </div>
-
+              <form onSubmit={handleSubmit}>
               <div className="form-group">
                 <label htmlFor="message">Message</label>
                 <textarea
@@ -122,7 +108,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   rows="6"
-                  placeholder="Tell me about the opportunity, project, or what you'd like to discuss..."
+                  placeholder="Message me! (Will open your email client)..."
                 ></textarea>
               </div>
 
