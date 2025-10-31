@@ -49,8 +49,8 @@ const Contact = () => {
     {
       icon: '',
       label: 'GitHub',
-      value: 'github.com/eliPerez12',
-      link: 'https://github.com/eliPerez12'
+      value: 'github.com/eliperez-dev',
+      link: 'https://github.com/eliperez-dev'
     }
   ];
 

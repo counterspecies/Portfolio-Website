@@ -19,7 +19,7 @@ const About = () => {
               </p>
 
               <p>
-                My biggest project is <span className="organization-highlight">Until Every Cage is Empty</span>—a full-stack geospatial platform built with <span className="rust-highlight">Rust and JavaScript</span>. It serves <span className="stats-highlight">38,500+</span> data points to <span className="stats-highlight">3,000+</span> monthly users globally and has reached <span className="stats-highlight">100,000+</span> people through social media. The project has been recognized by major animal advocacy organizations and established itself as a critical resource for activists and researchers.
+                My biggest project is <span className="organization-highlight">Until Every Cage is Empty</span>—a full-stack geospatial platform with a backend built in <span className="rust-highlight">Axum (Rust)</span> deployed on <span className="rust-highlight">Shuttle</span>, and a frontend in <span className="rust-highlight">JavaScript</span>. It serves <span className="stats-highlight">38,500+</span> facilities to <span className="stats-highlight">3,000+</span> monthly users globally and has reached <span className="stats-highlight">100,000+</span> people through social media. The project has been recognized by major animal advocacy organizations and established itself as a critical resource for activists and researchers.
               </p>
                 
               <p> 
@@ -74,8 +74,8 @@ const About = () => {
                 <div className="highlight-label">People Reached</div>
               </div>
               <div className="highlight-item">
-                <div className="highlight-number">AGPLv3</div>
-                <div className="highlight-label">Open Source</div>
+                <div className="highlight-number">4+</div>
+                <div className="highlight-label">Years Programming</div>
               </div>
             </div>
           </div>
