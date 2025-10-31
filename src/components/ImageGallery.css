@@ -134,6 +134,18 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .image-gallery {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .gallery-main {
+    min-height: 100%;
+  }
+
   .gallery-nav {
     width: 36px;
     height: 36px;
@@ -161,6 +173,18 @@
 }
 
 @media (max-width: 480px) {
+  .image-gallery {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .gallery-main {
+    min-height: 100%;
+  }
+
   .gallery-nav {
     width: 32px;
     height: 32px;
