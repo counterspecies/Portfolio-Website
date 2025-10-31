@@ -151,7 +151,7 @@
 }
 
 .highlight-item:hover {
-  border-color: var(--accent-blue);
+  border-color: white;
   transform: translateY(-4px);
 }
 

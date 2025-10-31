@@ -58,25 +58,27 @@ const Hero = () => {
               <h4>Core Skills</h4>
               <div className="skill-list">
                 <span>Rust</span>
-                <span>Embedded Systems</span>
                 <span>Systems Programming</span>
+                <span>Full-Stack Development</span>
               </div>
             </div>
             <div className="skill-category">
               <h4>Languages & Tools</h4>
               <div className="skill-list">
-                <span>Rust</span>
-                <span>TypeScript</span>
                 <span>Python</span>
+                <span>TypeScript</span>
                 <span>Assembly</span>
+                <span>Embedded Rust</span>
               </div>
             </div>
             <div className="skill-category">
               <h4>Experience</h4>
               <div className="skill-list">
-                <span>Axum & REST APIs</span>
+                <span>REST APIs</span>
                 <span>CPU Architecture</span>
                 <span>Geospatial Mapping</span>
+                <span>IoT Systems</span>
+                <span>AI Integration</span>
               </div>
             </div>
           </div>
