@@ -66,7 +66,7 @@ const Contact = () => {
         <div className="contact-content">
           <div className="contact-info">
             <div className="info-header">
-              <h3>Let's Connect</h3>
+              <h3>My Links</h3>
             </div>
 
             <div className="contact-methods">
