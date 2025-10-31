@@ -60,7 +60,7 @@ const About = () => {
               <img src={profileImage} alt="Eli Perez" className="profile-image" />
             </div>
 
-            <div className="highlights">
+            <div className="highlights"> 
               <div className="highlight-item">
                 <div className="highlight-number">38.5K+</div>
                 <div className="highlight-label">Data Points Served</div>
